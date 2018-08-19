@@ -1,0 +1,131 @@
+body{background: #e1e3e4;} 
+h1.header{ 
+	font-size: 30px;
+	color: #414141;
+    	line-height: normal;
+    	font-family: 'MuseoSans_xFat';
+    	font-weight: normal;
+}
+h2{ 
+    	color:white;
+   	font-family: MuseoSans,Georgia,serif;
+}
+h3.desc{ 
+    	color:#0B5E59;
+   	font-family: ubuntu;     
+}
+p{ 
+   	color:white;
+   	font-family: MuseoSans,Georgia,serif;
+}
+p.text
+{ 
+  	color:#450A0A;
+ 	font-family:ubuntu;
+}
+div{ 
+	display:block;
+}
+table
+{ 
+	width:100%;
+}
+
+a:link {
+    	text-decoration: none;
+    	color: #0000FF;
+}
+a:visited {
+    	color: #FF0000;
+}
+a:hover {
+    	color: #00FF00;
+}
+a:active {
+    	color: #0000FF;
+}
+td.menu
+{ 	text-align:center;
+  	background-color:#3c948b;
+  	border-radius:4px;
+  	width:20%;
+}
+td
+{
+	width=100%;
+}
+td.selected
+{ 
+  	text-align:center;
+  	background-color:#2c80ff;
+ 	width:20%;
+}
+#menuNavigation
+{ 
+  	width:20%;
+  	float:left;
+  	background-color:#DE723C;
+  	text-align:center;
+  	border-radius:5px;
+
+}
+#description
+{ 
+  	width:80%; 
+  	float:left;
+  	border-radius:10px;
+  	background-color:white;
+}
+#generalinfo
+{ 
+  	width:48%;
+  	float:left;
+ 	padding-left:10px;
+}
+#Address{ padding-left: 10px; }
+#records,#projects,#CP,#ExtraCurricular,#hobbies,#achievements,#currentcourses,#prevcourses,#TAcourses,#social,#interests
+{ 
+  	width:100%;
+  	float:left;
+  	padding-left:10px;
+  	padding-right:10px;
+}
+#otherinfo
+{ 
+  	width:100%;
+  	float:left;
+ 	padding-left:5px
+}
+#image
+{ 
+  	width:50%;
+  	float:left
+}
+#projects{ text-align:justify}
+td.nav{ background-color:#969696;}
+table.reference
+{ 
+  	font-family: verdana,helvetica,arial,sans-serif;
+ 	border-spacing:#555555;
+  	color:#404040;
+  	border-width:1px;
+  	width:80%;
+}
+table.reference th{ 
+  	color:white;
+  	border:1px solid #555555 ;
+  	background-color: #555555;
+  	padding:3px;
+  	text-align:left;
+}
+table.reference td{ padding:3px;}
+table.reference img
+{
+  	width:300px;
+  	height:80px;
+}
+table.ref2 img
+{ 
+  	width:100px;
+  	height:100px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+ 	<head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+  	<title>SAURABH JAIN</title>
+	<link rel ="stylesheet" type="text/css" href="mystyle.css"/>
+	<!--exrternal reference to mystyle.css-->  	
+	<!-- <style> -->
+  	<!-- h1{ color:white;} -->
+  	<!-- </style> -->
+ 	</head>
+	<body >
+  		<div id= "header"><!--Main heading common to all pages-->
+    			<center>
+    				<h1><strong>SAURABH JAIN</strong></h1>
+    			</center>
+    		<div id="menu">
+      			<table>
+        	  		<tr>
+		    			<td class="menu"><a href = "index.html"><h2>HOME</h2></a></td>
+					<td  class="menu"><a href = "academics.html"><h2>ACADEMICS</h2></a></td>
+		    			<td class="selected"><a href = "courses.html"><h2>COURSES</h2></a></td><!--this menu is selected-->
+		    			<td class="menu"><a href = "interests.html"><h2>INTERESTS</h2></a></td>
+		    			<td class="menu"><a href = "contact.html"><h2>CONTACTS</h2></a></td>
+		  		</tr>
+			</table>
+    		</div><!--menu close-->
+  		</div>
+  		<div class="page">
+    			<div id="menuNavigation"><!--quick navigation menu-->
+      				<table>
+					<tr><td class="nav"><h3><a href="#currentcourse">Current courses</a></h3></td></tr>
+					<tr><td class="nav"><h3><a href="#prevcourses">previous courses</a></h3></td></tr>
+					<tr><td class="nav"><h3><a href="#TAcourses">TA courses</a></h3></td></tr>
+		      		</table>
+    			</div><!--menunavigation close-->
+    			<div id="description">
+      				<div id="currentcourses">
+					<h1><b><u> CURRENT COURSES</u></b></h1>
+						<center>
+	 	 					<table class="reference">
+	    							<tr >
+	     	 							<th> <b>Course code</b></th>
+	      								<th> <b>Course name</b></th>
+	      								<th> <b>Instructor</b></th>
+	     							</tr>   
+	    							<tr>	
+	      								<td>CS 763</td>
+	      								<td>computer vision</td>
+	      								<td>Ajit Rajwade</td>	
+									</tr>
+	   		 					<tr>		
+	      								<td>CS 735</td>
+	      								<td>Formal Model for concurrent and Asynchronous Systems</td>
+	      								<td>S Akshay</td>
+	    							</tr>
+	     							<tr>	 	
+	      								<td>CS 691</td>
+	      								<td>R & D project</td>
+	      								<td>Abhiram G. Ranade </td>
+	     							</tr>
+	     							<tr>	
+	      								<td>IE502</td>
+	      								<td>Probability Model</td>
+	      								<td>Jayendran Venkateswaran</td>
+	     							</tr>
+	    	 						<tr>	 		
+	      								<td>CS 792, HS 791</td>
+	      								<td>Communication Skills</td>
+	      								<td>D. B. phatak </td>
+	     							</tr>
+	     							<tr>		 		
+	      								<td>CS 694</td>
+	      								<td>Seminar</td>
+	      								<td>Abhiram G. Ranade</td>
+	     							</tr>
+	  						</table>
+						
+						</center>
+						
+						<H4 > Seminar topic :<a href= "http://bcmi.sjtu.edu.cn/~zhangliqing/Papers/2012ECCV-Sun-Sketch.pdf" >Free Hand Drawn Sketch Segmentation</a></H4>
+						<H4 >Seminar work :<a href= "seminar.pdf" >link</a></H4>
+
+						<H4 > R&D topic :<a href= "ihci2013.pdf" >DrawCAD: Mouse-sketch-based engineering drawing		</div><!--current course end-->
+      				<hr>
+      				<div id="prevcourses">
+					<h1><b><u>PREVIOUS COURSES</u></b></h1>
+					<center>
+	 	 					<table class="reference">
+	    							<tr >
+	     	 							<th> <b>Course code</b></th>
+	      								<th> <b>Course name</b></th>
+	      								<th> <b>Instructor</b></th>
+	     							</tr>   
+	    							<tr>	
+	      								<td>CS 601</td>
+	      								<td>Algorithms and Complexity</td>
+	      								<td>Vishwanathan Sundar</td>	
+									</tr>
+	   		 					<tr>		
+	      								<td>CS 621</td>
+	      								<td>Artificial Intelligence</td>
+	      								<td>Sivakumar G.</td>
+	    							</tr>
+	     							<tr>	 	
+	      								<td>CS 626</td>
+	      								<td>Speech, Natural Language Processing</td>
+	      								<td>Bhattacharya P.</td>
+	     							</tr>
+	     							<tr>	
+	      								<td>CS 663</td>
+	      								<td>Digital Image Processing</td>
+	      								<td>Ajit Rajwade</td>
+	     							</tr>
+	     							<tr>		 		
+	      								<td>CS 699</td>
+	      								<td>Software Lab</td>
+	      								<td>Bhaskar Raman</td>
+	     							</tr>
+	  						</table>
+						</center>
+					<ol type ="i">
+	 					<li><p class="text">Data Structures</p></li>
+	 					<li><p class="text">Operating systems</p></li>
+	 					<li><p class="text">Data base management system</p></li>
+	 					<li><p class="text">Compiler</p></li>
+	 					<li><p class="text">Computer networks</p></li>
+					 	<li><p class="text">Compuer Graphics</p></li>	
+					</ol>	
+      				</div><!--prev course end-->
+      				<hr>
+      				<div id = "TAcourses" >
+					<h1><b><u>TA Courses</u></b></h1>
+	 				<p class="text">System Adminstrator</p>
+      				</div><!--interest close-->
+     			</div><!--description close-->
+  		</div><!--page close-->
+   	</body>
+</html>
